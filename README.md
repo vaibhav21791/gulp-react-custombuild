@@ -19,19 +19,21 @@ Need to install gulp and other supporting packages,
 Install gulp
 
 ```
-`npm install --save-dev gulp`
+npm install --save-dev gulp
+
 ```
 
 Install gulp-if
 
 ```
-`npm install gulp-if`
+npm install gulp-if
+
 ```
 
 Install gulp-rename
 
 ```
-`npm install gulp-rename`
+npm install gulp-rename
 ```
 
 ## Update gulpfile.js
