@@ -30,7 +30,7 @@ gulp.task("copy-build-dist-js", function () {
     .pipe(gulpif("runtime-main.*.js", rename("runtime.js")))
     .pipe(gulpif("runtime-main.*.js.map", rename("runtime.map.js")))
     .pipe(gulp.dest(path.dist.js));
-  // .pipe(gulp.dest(path.dist + "/Click2Export/ThemeApp/scripts/"));
+ 
 });
 
 /** Task to copy css files from build folder to dist folder */
